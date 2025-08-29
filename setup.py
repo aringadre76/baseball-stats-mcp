@@ -47,8 +47,11 @@ setup(
     },
     keywords="baseball, mcp, analytics, statcast, sabermetrics, mlb, sports, statistics",
     project_urls={
-        "Bug Reports": "https://github.com/aringadre76/baseball-stats-mcp/issues",
+        "Homepage": "https://github.com/aringadre76/baseball-stats-mcp",
+        "Repository": "https://github.com/aringadre76/baseball-stats-mcp",
         "Source": "https://github.com/aringadre76/baseball-stats-mcp",
+        "Bug Reports": "https://github.com/aringadre76/baseball-stats-mcp/issues",
+        "Issues": "https://github.com/aringadre76/baseball-stats-mcp/issues",
         "Documentation": "https://github.com/aringadre76/baseball-stats-mcp/blob/main/docs/",
     },
     include_package_data=True,
