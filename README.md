@@ -1,28 +1,46 @@
 # Baseball Stats MCP Server
 
+[![PyPI version](https://badge.fury.io/py/baseball-stats-mcp.svg)](https://badge.fury.io/py/baseball-stats-mcp)
 [![Tests](https://img.shields.io/badge/tests-78.1%25%20passing-brightgreen)](tests/)
 [![Tools](https://img.shields.io/badge/tools-32%20available-blue)](docs/TOOLS_REFERENCE.md)
 [![Documentation](https://img.shields.io/badge/docs-complete-brightgreen)](docs/)
+[![Python](https://img.shields.io/pypi/pyversions/baseball-stats-mcp.svg)](https://pypi.org/project/baseball-stats-mcp/)
 
 The **Baseball Stats MCP Server** is the most comprehensive baseball analytics platform ever created, providing access to every advanced baseball metric available through a powerful MCP (Model Context Protocol) server.
 
-## 🚀 **Quick Start**
+## 📦 **Installation**
 
+### **PyPI Installation (Recommended)**
+```bash
+pip install baseball-stats-mcp
+```
+
+### **Development Installation**
 ```bash
 # Clone the repository
 git clone <your-repo-url>
 cd baseball-stats-mcp
 
-# Install dependencies
-pip install -r requirements.txt
+# Install in development mode
+pip install -e .
+```
 
-# Run the server
-cd src
-python3 run_server.py
+## 🚀 **Quick Start**
 
-# Run tests
-cd ../tests
-python3 run_all_tests.py
+### **Running the MCP Server**
+```bash
+# After installation via pip
+baseball-stats-mcp
+
+# Or run directly
+python -m baseball_stats_mcp.server
+```
+
+### **Testing the Installation**
+```bash
+# Run the test suite
+cd tests
+python run_all_tests.py
 ```
 
 ## 🌟 **Key Features**

@@ -170,3 +170,7 @@ tmp/
 secrets/
 keys/
 config.local.json
+
+
+.cursor/
+cursor

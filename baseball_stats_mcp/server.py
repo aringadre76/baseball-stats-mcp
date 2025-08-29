@@ -3628,9 +3628,13 @@ class BaseballStatsMCPServer:
             traceback.print_exc(file=sys.stderr)
             raise
 
-async def main():
+async def async_main():
     server = BaseballStatsMCPServer()
     await server.run()
 
+def main():
+    """Entry point for console script"""
+    asyncio.run(async_main())
+
 if __name__ == "__main__":
-    asyncio.run(main())
+    main()

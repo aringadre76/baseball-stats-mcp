@@ -4,7 +4,7 @@
       "command": "python3",
       "args": ["src/server.py"],
       "env": {
-        "FIRECRAWL_TOKEN": "fc-7cde275ece2f4c4ab0c2851bb24a8bc7"
+        "FIRECRAWL_TOKEN": "your-firecrawl-token-here"
       }
     }
   }

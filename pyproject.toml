@@ -1,0 +1,56 @@
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "baseball-stats-mcp"
+version = "1.0.0"
+description = "The most comprehensive baseball analytics MCP server with 32 advanced tools"
+readme = "README.md"
+requires-python = ">=3.8"
+license = {file = "LICENSE"}
+authors = [
+    {name = "Your Name", email = "your.email@example.com"}  # Update this
+]
+maintainers = [
+    {name = "Your Name", email = "your.email@example.com"}  # Update this
+]
+keywords = ["baseball", "mcp", "analytics", "statcast", "sabermetrics", "mlb", "sports", "statistics"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering :: Information Analysis",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "mcp>=1.0.0",
+    "requests>=2.31.0",
+    "pandas>=2.0.0",
+    "matplotlib>=3.7.0",
+    "seaborn>=0.12.0",
+    "plotly>=5.15.0",
+    "numpy>=1.24.0",
+    "python-dotenv>=1.0.0",
+    "firecrawl>=0.1.0",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/yourusername/baseball-stats-mcp"  # Update this
+"Bug Reports" = "https://github.com/yourusername/baseball-stats-mcp/issues"  # Update this
+"Source" = "https://github.com/yourusername/baseball-stats-mcp"  # Update this
+"Documentation" = "https://github.com/yourusername/baseball-stats-mcp/blob/main/docs/"  # Update this
+
+[project.scripts]
+baseball-stats-mcp = "baseball_stats_mcp.server:main"
+
+[tool.setuptools]
+packages = ["baseball_stats_mcp"]
