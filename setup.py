@@ -15,7 +15,7 @@ def read_requirements():
 
 setup(
     name="baseball-stats-mcp",
-    version="1.0.0",
+    version="1.0.1",
     author="Arin Gadre",
     author_email="aringadre76@gmail.com",
     description="The most comprehensive baseball analytics MCP server with 32 advanced tools",

@@ -19,7 +19,7 @@ Usage:
     # Use with MCP client or run standalone
 """
 
-__version__ = "1.0.0"
+__version__ = "1.0.1"
 __author__ = "Arin Gadre"
 __email__ = "aringadre76@gmail.com"
 
