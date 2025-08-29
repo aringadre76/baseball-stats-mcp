@@ -16,12 +16,12 @@ def read_requirements():
 setup(
     name="baseball-stats-mcp",
     version="1.0.0",
-    author="Your Name",  # Update this
-    author_email="your.email@example.com",  # Update this
+    author="Arin Gadre",
+    author_email="aringadre76@gmail.com",
     description="The most comprehensive baseball analytics MCP server with 32 advanced tools",
     long_description=read_readme(),
     long_description_content_type="text/markdown",
-    url="https://github.com/yourusername/baseball-stats-mcp",  # Update this
+    url="https://github.com/aringadre76/baseball-stats-mcp",
     packages=find_packages(),
     classifiers=[
         "Development Status :: 4 - Beta",
@@ -47,9 +47,9 @@ setup(
     },
     keywords="baseball, mcp, analytics, statcast, sabermetrics, mlb, sports, statistics",
     project_urls={
-        "Bug Reports": "https://github.com/yourusername/baseball-stats-mcp/issues",  # Update this
-        "Source": "https://github.com/yourusername/baseball-stats-mcp",  # Update this
-        "Documentation": "https://github.com/yourusername/baseball-stats-mcp/blob/main/docs/",  # Update this
+        "Bug Reports": "https://github.com/aringadre76/baseball-stats-mcp/issues",
+        "Source": "https://github.com/aringadre76/baseball-stats-mcp",
+        "Documentation": "https://github.com/aringadre76/baseball-stats-mcp/blob/main/docs/",
     },
     include_package_data=True,
     zip_safe=False,

@@ -10,10 +10,10 @@ readme = "README.md"
 requires-python = ">=3.8"
 license = {file = "LICENSE"}
 authors = [
-    {name = "Your Name", email = "your.email@example.com"}  # Update this
+    {name = "Arin Gadre", email = "aringadre76@gmail.com"}
 ]
 maintainers = [
-    {name = "Your Name", email = "your.email@example.com"}  # Update this
+    {name = "Arin Gadre", email = "aringadre76@gmail.com"}
 ]
 keywords = ["baseball", "mcp", "analytics", "statcast", "sabermetrics", "mlb", "sports", "statistics"]
 classifiers = [
@@ -44,10 +44,10 @@ dependencies = [
 ]
 
 [project.urls]
-"Homepage" = "https://github.com/yourusername/baseball-stats-mcp"  # Update this
-"Bug Reports" = "https://github.com/yourusername/baseball-stats-mcp/issues"  # Update this
-"Source" = "https://github.com/yourusername/baseball-stats-mcp"  # Update this
-"Documentation" = "https://github.com/yourusername/baseball-stats-mcp/blob/main/docs/"  # Update this
+"Homepage" = "https://github.com/aringadre76/baseball-stats-mcp"
+"Bug Reports" = "https://github.com/aringadre76/baseball-stats-mcp/issues"
+"Source" = "https://github.com/aringadre76/baseball-stats-mcp"
+"Documentation" = "https://github.com/aringadre76/baseball-stats-mcp/blob/main/docs/"
 
 [project.scripts]
 baseball-stats-mcp = "baseball_stats_mcp.server:main"

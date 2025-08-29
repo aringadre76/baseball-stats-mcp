@@ -20,8 +20,8 @@ Usage:
 """
 
 __version__ = "1.0.0"
-__author__ = "Your Name"  # Update this
-__email__ = "your.email@example.com"  # Update this
+__author__ = "Arin Gadre"
+__email__ = "aringadre76@gmail.com"
 
 from .server import BaseballStatsMCPServer
 
